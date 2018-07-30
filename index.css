@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+body {
+  background:url('http://i.imgur.com/cVC1BCg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+.header {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.results-box ul {
+  list-style-type: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logo {
+  height: 85px;
+  border-radius: 55%;
+  border: 1px black solid;
+}
+
+.header div {
+  display: inline-block;
+}
+
+.question-form label, .submit-answer {
+  display:block;
+  border: black 2px solid
+}
+
+.results-box ul li {
+  display: inline-block;
+  padding: 10px 10px;
+}
+
+fieldset {
+  text-align: center;
+  border: none;
+}
+
+legend {
+  font-weight: bold;
+  color: white;
+  font-size: 24px;
+}
+
+label, .submit-answer, .next-question-button, .restart-button, .start-quiz {
+  border: solid black 1px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+
+ul {
+  padding: 
+}
+
+.question-key, .score-key {
+  color: white;
+  margin: 0px;
+}
+
+label {
+  background-color: white;
+}
+
+label:focus-within, label:hover {
+  background-color: yellow;
+}
+
+.submit-answer:hover, .next-question-button:hover, .restart-button:hover, .start-quiz:hover {
+  background-color: greenyellow;
+}
+
+.submit-answer:focus, .next-question-button:focus, .restart-button:focus, .start-quiz:focus {
+  background-color: greenyellow;
+}
+
+.submit-answer, .next-question-button {
+  font-weight: bold;
+}
+
+.results-box {
+  color: white
+}
+
+.question-answer-box {
+  text-align: center;
+}
+
+.result {
+  color: white;
+}
+
+
+
+
