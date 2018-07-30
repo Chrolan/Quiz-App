@@ -28,12 +28,12 @@ function questionGenerator () {
   } 
     generateHeader();
     return `<form class="question-form">
-              <fieldset>
+              <fieldset role="group">
               <legend class="question">
               ${questionAnswer[questionNumber].question}
               </legend>
               ${input}
-              <input type="submit" class="submit-answer" value="Submit Answer!"/>
+              <input type="submit" class="submit-answer" name="answer" value="Submit Answer!"/>
               </fieldset>
             </form>`
 }
